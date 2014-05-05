@@ -4,15 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="TeamBuilder is a technical staffing agency. Their team is made from experienced professions who have hands on experience in the IT industry for which they recruit. Each candidate presented to you comes with the guarantee that they were hand picked, we met them in person and drilled into their experience, and that they will come to your table ready for the position you have open. No more resume filtering or passing the weight of finding talent to your team. TeamBuilder builds technical teams."/>
-    <title>TeamBuilder</title>
-
+    <title>Fee-Gen</title>
     <!-- Bootstrap -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="../css/teambuilder-new.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="http://www.teambuildergroup.com/teambuilder-ico.png">
-    <link rel="shortcut icon" type="image/png" href="http://www.teambuildergroup.com/teambuilder-ico.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/teambuilder-new.css" rel="stylesheet">
+   
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -54,7 +51,6 @@
 
     $annual_revenue       = $bill_rate * $hours_in_year;
 
-    //mail ( "embassy50@gmail.com", "I am the subject line", "I am the message" );
     /*
     echo "Gross Margin Dollar: $". $gross_margin_amount."</br>";
     echo "Gross Margin Percent: ". $gross_margin_percent."%</br>";
