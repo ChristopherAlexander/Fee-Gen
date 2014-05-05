@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /*min-height: 2000px;*/
+  padding-top: 50px;
+  /* Margin bottom by footer height */
+  margin-bottom: 160px;
+
+}
+.logo
+{
+	background-image:url(../images/tb-logo.png);
+ 	/*background-color:#F90;*/
+ 	/*width:97px;
+ 	height:81px;*/
+}
+.navbar
+{
+	background-color: #000000;
+	opacity:0.9;
+	filter:alpha(opacity=90);
+
+}
+.navbar-header
+{
+	background-color: transparent;/*#000000;*/
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+a, a:visited
+{
+	color:#ffffff;
+}
+a:hover
+{
+	color:#de6e46;
+}
+/*
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+ 
+  height: 60px;
+  background-color: #f5f5f5;
+}*/
+.footer-copy
+{
+	padding-top: 0px;
+	font-size:12px;
+	color:#ffffff;	
+}
+.navbar-fixed-bottom
+{
+  padding-left: 40px;
+	background-color: #f5921e;
+}
+.hero-unit {
+  padding: 60px;
+  margin-bottom: 30px;
+  /*font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;*/
+  color: inherit;
+  background-color: #eeeeee;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+.hero-unit orange
+{
+	background-color: #de6d46;
+}
+.hero-unit h1 {
+  margin-bottom: 0;
+  /*font-size: 60px;*/
+  line-height: 1;
+  letter-spacing: -1px;
+  color: inherit;
+}
+
+.hero-unit li {
+  line-height: 30px;
+}
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.row:after {
+  clear: both;
+}
+
+div.hero-image
+{
+	clear:both;
+	position:relative;
+	display:block;
+	margin: 20px auto 20px auto;
+	padding:20px;
+	background-image:url(../images/herp-image-1.png);
+	width:763px;/* 563 */
+	height:279px;
+	background-repeat:no-repeat;
+	
+}
+.hero-text
+{
+	position:relative;
+	top:100px;
+	text-align:center;
+	width:250px;
+	margin-left:-15px;	
+	color:#999999;
+}
+.orange-text
+{
+	color:#de6d46;	
+}
+ /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      /*height: 450px;*/
+      height: 100%; 
+      margin-top: 0;
+      padding-top: 50px;
+      font-size: 200px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+       /*height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+      */
+    }
+
+    .carousel .item {
+      min-height: 450px;
+      height: 100%; /* 500px; */
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 500px;
+      /*height: 500px;*/
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+      margin-left: 80px;
+    }
+     .carousel-caption-right {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+      margin-left: 40%;
+    }
+    .carousel-caption h1, 
+    .carousel-caption-right h1,
+    .carousel-caption-right .lead,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn, 
+    .carousel-caption-right .btn {
+      margin-top: 10px;
+    }
+    .social li{
+      display:inline;
+    }
+    .client-represent {
+      /*padding: 5px;*/
+      margin-left: 7px;
+      margin-right: 7px;
+
+      -webkit-box-shadow: 0 8px 6px -6px #cccccc;
+      -moz-box-shadow: 0 8px 6px -6px #cccccc;
+      box-shadow: 0 8px 6px -6px #cccccc;
+
+    }
+    .google-map {
+      width: 400px;
+      height: 350px;
+      -webkit-box-shadow: 0 8px 6px -6px #cccccc;
+      -moz-box-shadow: 0 8px 6px -6px #cccccc;
+      box-shadow: 0 8px 6px -6px #cccccc;
+    }
+     .social-shadow {
+      -webkit-box-shadow: 0 8px 6px -6px #de6e46;
+      -moz-box-shadow: 0 8px 6px -6px #de6e46;
+      box-shadow: 0 8px 6px -6px #de6e46;
+    }
